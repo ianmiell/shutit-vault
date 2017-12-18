@@ -4,6 +4,7 @@ class shutit_vault(ShutItModule):
 
 
 	def build(self, shutit):
+#See also: https://www.slalom.com/thinking/managing-secrets-using-hashicorp-vault
 		shutit.install('wget')
 		shutit.install('unzip')
 		shutit.install('jq')
